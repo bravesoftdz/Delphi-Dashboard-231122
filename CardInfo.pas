@@ -54,13 +54,16 @@ type
     property FontDetails: TFontName read FFontDetails write SetFontDetails;
   end;
 
+procedure Register;
+
 implementation
 
 {$R *.dfm}
 
-{ TFrame1 }
-
-{ TCardInfoStatic }
+Procedure Register;
+begin
+  RegisterComponents('Componentes Visuais',[TCardInfoStatic]);
+end;
 
 procedure TCardInfoStatic.SetBackground(const Value: TColor);
 begin
