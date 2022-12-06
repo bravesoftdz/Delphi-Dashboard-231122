@@ -78,7 +78,7 @@
         </DelphiCompile>
         <DCCReference Include="rtl.dcp"/>
         <DCCReference Include="CardInfo.pas">
-            <Form>Frame1</Form>
+            <Form>CardInfoStatic</Form>
             <FormType>dfm</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
