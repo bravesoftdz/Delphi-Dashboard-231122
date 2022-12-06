@@ -1,4 +1,4 @@
-object Frame1: TFrame1
+object CardInfoStatic: TCardInfoStatic
   Left = 0
   Top = 0
   Width = 280
@@ -18,7 +18,6 @@ object Frame1: TFrame1
     Padding.Bottom = 10
     ParentBackground = False
     TabOrder = 0
-    ExplicitWidth = 295
     object pnlImage: TPanel
       Left = 10
       Top = 10
@@ -31,7 +30,7 @@ object Frame1: TFrame1
       Padding.Right = 3
       Padding.Bottom = 3
       TabOrder = 0
-      object Image1: TImage
+      object Image: TImage
         Left = 3
         Top = 3
         Width = 44
@@ -1015,10 +1014,6 @@ object Frame1: TFrame1
       Align = alClient
       BevelOuter = bvNone
       TabOrder = 1
-      ExplicitLeft = 87
-      ExplicitTop = 19
-      ExplicitWidth = 185
-      ExplicitHeight = 41
       object lblTitulo: TLabel
         Left = 0
         Top = 0
